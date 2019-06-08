@@ -12,6 +12,7 @@ import java.util.List;
  *
  */
 public class TokenDisplayValueProvider {
+	
   private static TokenDisplayValueProvider inst;
   private final String[] map;
 
@@ -45,6 +46,7 @@ public class TokenDisplayValueProvider {
    * @param id ID, fuer die der Wert zurueckgegeben wird.
    * @return Wert
    */
+  
   public String getDisplayValue(final int id) {
     if (id < 0)
       return "";

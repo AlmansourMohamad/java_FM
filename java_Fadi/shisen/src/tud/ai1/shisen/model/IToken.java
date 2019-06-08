@@ -9,9 +9,6 @@ import org.newdawn.slick.geom.Vector2f;
  *
  */
 public interface IToken {
-	// Aufgabe 1:
-	String tokenState(); 
-
   /**
    * Gebe TokenState zurueck.
    * 

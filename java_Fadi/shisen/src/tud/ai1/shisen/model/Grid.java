@@ -22,10 +22,6 @@ public class Grid implements IGrid {
   private boolean timerActive = false;
   private List<IToken> list;
   private static int score = 0;
-  /*
-   * TODO: Aufgabe 3a
-   */
-
   /**
    * Konstruktor, der ein zufaelliges Grid zum Testen erzeugt.
    */
@@ -37,6 +33,39 @@ public class Grid implements IGrid {
       }
     }
     grid = demoGrid;
+  }
+
+  // Aufgabe 3-a:
+  private IToken [][] grid; // Infos ueber das Spielfeld.
+  private IToken selectedTokenOne = null; // erste Auswahl.
+  private IToken selectedTokenTwo = null; // zweite Auswahl.
+  
+  // Aufgabe 3-b:
+  public Grid(String path) {
+	  this.grid = parseMap(pathx);
+  }
+  
+  // Aufgabe 3-c:
+  public IToken getTokenAt(int x, int y) {
+	  ////////////////////////////////////////////////////
+  }
+  
+  // Aufgabe 3-d:
+  public IToken getGrid() {
+	  return this.grid;
+  }
+  public ... getActiveToken(){
+	  ///////////////////////////////////////////////////
+	  return this.activeToken;
+  }
+  
+  // Aufgabe 3-e:
+  public boolean bothClicked() {
+	  if(zweite click) { ///////////////////////////////////////////
+		  return true;
+	  } else {
+		  return false;
+	  }
   }
 
   /*
