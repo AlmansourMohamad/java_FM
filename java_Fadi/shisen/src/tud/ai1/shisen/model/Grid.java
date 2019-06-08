@@ -61,7 +61,7 @@ public class Grid implements IGrid {
   
   // Aufgabe 3-e:
   public boolean bothClicked() {
-	  if(zweite click) { ///////////////////////////////////////////
+	  if(zweite click) { ////////////////////////////////////////////
 		  return true;
 	  } else {
 		  return false;
